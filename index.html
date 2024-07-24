@@ -15,6 +15,7 @@
 </head>
 
 <body>
+<!--INÍCIO DO CABEÇALHO-->
   <header class="cabeçalho">
     <div class="container">
       <input type="checkbox" id="menu" class="container__botao">
@@ -65,7 +66,7 @@
             <a href="#" class="lista-menu__link">Design & UX</a>
           </li>
         </ul>
-        
+
         <li class="opções__item"><a href="#" class="opções__link">Favoritos</a></li>
         <li class="opções__item"><a href="#" class="opções__link">Minha estante</a></li>
       </ul>
@@ -78,15 +79,19 @@
       <a href="#"><img src="img/Usuario.svg" alt="Meu perfil" class="container__imagem"></a>
     </div>
   </header>
+<!--FIM DO CABEÇALHO-->
 
 
+<!--INICIO DA SEÇÃO BANNER-->
   <section class="banner">
     <h2 class="banner__titulo">Já sabe por onde começar?</h2>
     <p class="banner__texto">Encontre em nossa estante o que precisa para seu desenvolvimento!</p>
     <input type="search" class="banner__pesquisa" placeholder="Qual será sua próxima leitura?">
   </section>
+<!--FIM DA SEÇÃO BANNER-->
 
 
+<!--INICIO DA SEÇÃO CARROSSEL-->
   <section class="carrossel">
     <h2 class="carrossel__titulo">Novos lançamentos</h2>
     <!-- Slider main container -->
@@ -194,8 +199,10 @@
       </div>
     </div>
   </section>
+<!--FIM DA SEÇÃO CARROSSEL-->
 
 
+<!--INÍCIO DA SEÇÃO TÓPICOS-->
   <section class="tópicos">
     <h2 class="tópicos__titulo">TÓPICOS VISITADOS RECENTEMENTE</h2>
     <ul class="tópicos__lista">
@@ -223,8 +230,10 @@
       </li>
     </ul>
   </section>
+<!--FIM DA SEÇÃO TÓPICOS-->
 
 
+<!--INÍCIO DA SEÇÃO CONTATO-->
   <section class="contato">
     <h2 class="contato__titulo">Fique por dentro das novidades!</h2>
     <p class="contato__texto">
@@ -232,15 +241,20 @@
     </p>
     <input type="email" placeholder="        Cadastre seu e-mail" class="contato__email" />
   </section>
+<!--FIM DA SEÇÃO CONTATO-->
 
-  <hr />
+
+  <hr /> <!--QUEBRA DE PÁGINA OU SEÇÃO-->
 
 
+<!--INÍCIO DO RODAPÉ-->
   <footer class="rodapé">
     <h2 class="rodapé__titulo">Grupo Alura</h2>
   </footer>
+<!--FIM DO RODAPÉ-->
 
 
+<!--SCRIPT QUE FAZ FUNCIONAR O CARROSSEL-->
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   <script>
     const swiper = new Swiper(".swiper", {

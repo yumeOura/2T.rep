@@ -10,7 +10,7 @@
     --cor-de-fundo: #EBECEE;
     --branco: #FFFFFF;
     --branco: #FFFFFF;
-    --rosa-degrade: linear-gradient(97.54deg, #ffafbd 35.49%, #ffdbe1 165.37%);
+    --rosa-degrade: linear-gradient(97.54deg, #f37d90 35.49%, #f7dde1 165.37%);
     --fonte-principal: "Poppins";
     --rosa: #ffc0cb;
     --fonte-secundario: "Josefin Sans";
@@ -19,7 +19,7 @@
 }
 
 body {
-    background-color: var(--cor-de-fundo);
+    background-color: var(--rosa);
     font-family: var(--fonte-principal);
     font-size: 16px;
     font-weight: 400;

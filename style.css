@@ -7,7 +7,7 @@
 
 
 :root {
-    --cor-de-fundo: #EBECEE;
+    --cor-de-fundo: #ffc0cb;
     --branco: #FFFFFF;
     --branco: #FFFFFF;
     --rosa-degrade: linear-gradient(97.54deg, #f37d90 35.49%, #f7dde1 165.37%);
@@ -19,7 +19,7 @@
 }
 
 body {
-    background-color: var(--rosa);
+    background-color: var(--branco);
     font-family: var(--fonte-principal);
     font-size: 16px;
     font-weight: 400;
